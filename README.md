@@ -1,1 +1,1 @@
-This is front end web development site hoe grown based solely on designs from templatemonster.com
+This is front end web development site home grown based solely on designs from templatemonster.com
