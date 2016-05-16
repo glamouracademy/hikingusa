@@ -37,6 +37,7 @@ header {
 	display: none;
 }
 
+
 #menu {
 	position: fixed;
 	background-color: #fff;
@@ -52,6 +53,12 @@ header {
 	margin-top: .8em;
 	height: 100vh;
 	overflow: auto;
+}
+
+/* hide mobile menu */
+
+#menu i.fa-bars {
+	display: none;
 }
 
 @media screen and (min-width: 768px) {
