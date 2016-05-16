@@ -18,10 +18,13 @@ ul {
 	list-style: none;
 }
 
+header {
+	background-color: #fff;
+}
+
 /* mobile menu presentation */
 
-
-#mobile-menu i {
+#menu i {
 	padding-top:.5em;
 	padding-left: 1em;
 	vertical-align: bottom;
@@ -30,12 +33,11 @@ ul {
 
 
 /* hide trips submenu by default */
-#mobile-menu ul.trip-menu {
+#menu ul.trip-menu {
 	display: none;
 }
 
-#mobile-menu {
-	outline: 1px solid red;
+#menu {
 	position: fixed;
 	background-color: #fff;
 	width: 100%;
@@ -43,13 +45,42 @@ ul {
 	height: 3em;
 }
 
-#mobile-menu > ul {
-	outline: 1px solid green;
+#menu > ul {
 	background-color: #fff;
 	width: 60%;
 	padding-top: .5em;
 	margin-top: .8em;
 	height: 100vh;
+	overflow: auto;
+}
+
+@media screen and (min-width: 768px) {
+	header {
+		position: fixed;
+		width: 100%;
+	}
+
+	#menu {
+		background-color: initial;
+		height: auto;
+	}
+
+	#menu i {
+		display: none;
+	}
+
+	#menu > ul {
+		float:right;
+		overflow: hidden;
+		width: auto;
+		height: auto;
+		background-color: initial;
+	}
+
+	#menu li {
+		float: left;
+		padding: 1em;
+	}
 }
 
 
