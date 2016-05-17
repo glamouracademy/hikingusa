@@ -8,28 +8,7 @@
 	src="http://maps.googleapis.com/maps/api/js">
 	</script>
 
-	<script>
-	var myCenter=new google.maps.LatLng(41.878178,-87.628964);
-
-	function initialize()
-	{
-	var mapProp = {
-	  center:myCenter,
-	  zoom:5,
-	  mapTypeId:google.maps.MapTypeId.ROADMAP
-	  };
-
-	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-	var marker=new google.maps.Marker({
-	  position:myCenter,
-	  });
-
-	marker.setMap(map);
-	}
-
-	google.maps.event.addDomListener(window, 'load', initialize);
-	</script>
+	<script src="javascripts/map.js"></script>
 
 
 </head>
@@ -61,11 +40,8 @@
 			<li><a href="#">Contacts</a></li>
 		</ul>
 	</header>
+
 	<div id="googleMap" style="width:500px;height:380px;"></div>
-
-
-<!-- 	<iframe width="600" height="450" frameborder="0" style="border:0"
-src="https://www.google.com/maps/embed/v1/place?q=place_id:EikyOCBXIEphY2tzb24gQmx2ZCwgQ2hpY2FnbywgSUwgNjA2MDQsIFVTQQ&key=AIzaSyDn_Kn8myjNs9q_ZTSVgoZs8hVcD-vzKa8" allowfullscreen></iframe> -->
 
 	<div>
 		<h1>Address</h1>
