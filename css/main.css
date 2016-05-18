@@ -63,7 +63,9 @@ li > .fa-chevron-down {
 	color: #4d4d4d;
 	border-radius: 15px;
 	padding: .7em;
+	margin: 1em .5em 0 0;
 	font-size: .7em;
+	float: right;
 }
 
 /* hide trips submenu by default */
@@ -74,7 +76,7 @@ li > .fa-chevron-down {
 #menu > ul {
 	background-color: #fff;
 	width: 50%;
-	padding-top: .5em;
+	padding-top: 1.5em;
 	margin: 0;
 	height: 100vh;
 	overflow: auto;
@@ -82,9 +84,8 @@ li > .fa-chevron-down {
 }
 
 #menu li {
-	height: 3.5em;
-	outline: 1px solid green;
-	padding: 1em 0 0 2em;
+	line-height: 3.5em;
+	padding-left: 1.5em;
 }
 
 /* hide mobile menu */
