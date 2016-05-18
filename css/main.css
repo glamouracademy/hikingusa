@@ -35,6 +35,14 @@ h1 {
 
 #menu {
 	margin: 0;
+	-webkit-box-shadow: 0px 3px 4px 0px rgba(204,204,204,1);
+	-moz-box-shadow: 0px 3px 4px 0px rgba(204,204,204,1);
+	box-shadow: 0px 3px 4px 0px rgba(204,204,204,1);
+position: fixed;
+	background-color: #fff;
+	width: 100%;
+	top: 0;
+	height: 3.3em;
 }
 
 #menu i.fa-times, #menu i.fa-bars {
@@ -63,18 +71,9 @@ li > .fa-chevron-down {
 	display: none;
 }
 
-
-#menu {
-	position: fixed;
-	background-color: #fff;
-	width: 100%;
-	top: 0;
-	height: 3.1em;
-}
-
 #menu > ul {
 	background-color: #fff;
-	width: 60%;
+	width: 50%;
 	padding-top: .5em;
 	margin: 0;
 	height: 100vh;
