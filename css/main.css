@@ -24,11 +24,21 @@ header {
 
 /* mobile menu presentation */
 
+#menu {
+	margin: 0;
+}
+
 #menu i {
-	padding-top:.5em;
 	padding-left: 1em;
-	vertical-align: bottom;
 	font-size: 1.5em;
+}
+
+#menu h1 {
+	display: inline-block;
+	font-size: 1.5em;
+	padding: .45em;
+	margin: 0;
+
 }
 
 
@@ -43,14 +53,14 @@ header {
 	background-color: #fff;
 	width: 100%;
 	top: 0;
-	height: 3em;
+	height: 3.1em;
 }
 
 #menu > ul {
 	background-color: #fff;
 	width: 60%;
 	padding-top: .5em;
-	margin-top: .8em;
+	margin: 0;
 	height: 100vh;
 	overflow: auto;
 }
@@ -72,7 +82,7 @@ header {
 		height: auto;
 	}
 
-	#menu i {
+	#menu i, #menu h1 {
 		display: none;
 	}
 
