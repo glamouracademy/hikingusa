@@ -38,7 +38,7 @@ h1 {
 	-webkit-box-shadow: 0px 3px 4px 0px rgba(204,204,204,1);
 	-moz-box-shadow: 0px 3px 4px 0px rgba(204,204,204,1);
 	box-shadow: 0px 3px 4px 0px rgba(204,204,204,1);
-position: fixed;
+	position: fixed;
 	background-color: #fff;
 	width: 100%;
 	top: 0;
@@ -102,6 +102,7 @@ li > .fa-chevron-down {
 	#menu {
 		background-color: initial;
 		height: auto;
+		box-shadow: initial;
 	}
 
 	#menu i, #menu h1 {
