@@ -18,6 +18,10 @@ ul {
 	list-style: none;
 }
 
+a {
+	text-decoration: none;
+}
+
 header {
 	background-color: #fff;
 }
@@ -28,7 +32,7 @@ header {
 	margin: 0;
 }
 
-#menu i {
+#menu i.fa-times, #menu i.fa-bars {
 	padding-left: 1em;
 	font-size: 1.5em;
 }
@@ -38,9 +42,14 @@ header {
 	font-size: 1.5em;
 	padding: .45em;
 	margin: 0;
-
 }
 
+li > .fa-chevron-down {
+	border: 1px solid gray;
+	border-radius: 15px;
+	padding: .7em;
+	font-size: .7em;
+}
 
 /* hide trips submenu by default */
 #menu ul.trip-menu {
