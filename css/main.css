@@ -11,6 +11,7 @@ html {
 }
 
 body {
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
 
@@ -24,6 +25,10 @@ a {
 
 header {
 	background-color: #fff;
+}
+
+h1 {
+	font-family: 'Roboto Slab', sans-serif;
 }
 
 /* mobile menu presentation */
@@ -45,7 +50,9 @@ header {
 }
 
 li > .fa-chevron-down {
-	border: 1px solid gray;
+	border: 1px solid #333;
+	background: #e6e6e6;
+	color: #4d4d4d;
 	border-radius: 15px;
 	padding: .7em;
 	font-size: .7em;
@@ -72,6 +79,13 @@ li > .fa-chevron-down {
 	margin: 0;
 	height: 100vh;
 	overflow: auto;
+	padding-left:0;
+}
+
+#menu li {
+	height: 3.5em;
+	outline: 1px solid green;
+	padding: 1em 0 0 2em;
 }
 
 /* hide mobile menu */
