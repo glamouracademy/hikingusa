@@ -131,13 +131,21 @@ li > .fa-chevron-down {
 		border-bottom: .4em solid goldenrod;
 	}
 
+	header > div {
+		width: 25vw;
+		padding-top: .5em;
+		text-align: center;
+	}
+
+	header > div h1 {
+		font-size: 1em;
+	}
+
 
 	#menu > div {
 		background-color: initial;
 		height: auto;
-		box-shadow: initial;
-		width: 35vw;
-		text-align: center;
+		box-shadow: initial;	
 	}
 
 	#menu i, #menu h1 {
