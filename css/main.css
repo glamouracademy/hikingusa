@@ -21,6 +21,7 @@ ul {
 
 a {
 	text-decoration: none;
+	color: #515151;
 }
 
 header {
@@ -79,7 +80,7 @@ li > .fa-chevron-down {
 	z-index: 1;
 	top: 3em;
 	background-color: #fff;
-	width: 50%;
+	width: 75%;
 	padding-top: 1.5em;
 	margin: 0;
 	height: 100vh;
@@ -91,6 +92,17 @@ li > .fa-chevron-down {
 	line-height: 3.5em;
 	padding-left: 1.5em;
 }
+
+#menu li.selected, #menu li:hover {
+	background-color: rgba(80, 184, 46, 0.8);
+}
+
+#menu li.selected a, #menu li:hover a {
+	color: #fff;
+}
+
+
+
 
 /* hide mobile menu */
 
