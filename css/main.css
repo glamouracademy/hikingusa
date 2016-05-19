@@ -92,6 +92,7 @@ li > .fa-chevron-down {
 }
 
 #menu li {
+	display: inline;
 	line-height: 3.5em;
 	padding-left: 1.5em;
 }
@@ -114,23 +115,29 @@ li > .fa-chevron-down {
 	color: #4d4d4d;
 }
 
-
 /* hide mobile menu */
 
 #menu i.fa-bars {
 	display: none;
 }
 
+
+
 @media screen and (min-width: 768px) {
 	header {
-		position: fixed;
-		width: 100%;
+		background-color: #000;
+		color: #fff;
+		height: 7.2em;
+		border-bottom: .4em solid goldenrod;
 	}
 
-	#menu {
+
+	#menu > div {
 		background-color: initial;
 		height: auto;
 		box-shadow: initial;
+		width: 35vw;
+		text-align: center;
 	}
 
 	#menu i, #menu h1 {
@@ -138,17 +145,21 @@ li > .fa-chevron-down {
 	}
 
 	#menu > ul {
-		float:right;
+		outline: 1px solid red;
+		right: 0;
 		overflow: hidden;
-		width: auto;
+		text-align: right;
 		height: auto;
 		background-color: initial;
+		box-shadow: initial;
 	}
+
+	/*
 
 	#menu li {
 		float: left;
 		padding: 1em;
-	}
+	}*/
 }
 
 
