@@ -168,6 +168,7 @@ li > .fa-chevron-down {
 	}
 
 	#menu li {
+		display: inline;
 		padding: 4em 2em;
 		line-height: 4em;
 	}
