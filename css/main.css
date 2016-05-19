@@ -101,7 +101,10 @@ li > .fa-chevron-down {
 	color: #fff;
 }
 
-
+#menu li.trip-list-item.selected .fa-chevron-down, #menu li.trip-list-item:hover .fa-chevron-down {
+	background-color: #29a329;
+	color: #fff;
+}
 
 
 /* hide mobile menu */
