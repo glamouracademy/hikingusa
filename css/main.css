@@ -172,6 +172,15 @@ li > .fa-chevron-down {
 		padding: 4em 2em;
 		line-height: 4em;
 	}
+
+	#menu li a {
+		color: #fff;
+	}
+
+
+	#menu li.selected, #menu li:hover {
+	background-color: goldenrod;
+	}
 }
 
 
