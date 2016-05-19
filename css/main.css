@@ -154,7 +154,6 @@ li > .fa-chevron-down {
 	}
 
 	#menu > ul {
-		outline: 1px solid red;
 		position: absolute;
 		right: 0;
 		top: 0;
@@ -169,12 +168,10 @@ li > .fa-chevron-down {
 		width: 100%;
 	}
 
-	/*
-
 	#menu li {
-		float: left;
-		padding: 1em;
-	}*/
+		padding: 4em 2em;
+		line-height: 4em;
+	}
 }
 
 
