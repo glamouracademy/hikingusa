@@ -109,6 +109,11 @@ li > .fa-chevron-down {
 	color: #fff;
 }
 
+#menu li.trip-list-item .fa-chevron-down:hover {
+	background-color: #fff;
+	color: #4d4d4d;
+}
+
 
 /* hide mobile menu */
 
