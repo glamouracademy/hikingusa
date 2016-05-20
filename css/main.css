@@ -114,9 +114,14 @@ li > .fa-chevron-down {
 	color: #4d4d4d;
 }
 
+
 /* hide mobile menu */
 
 #menu i.fa-bars {
+	display: none;
+}
+
+#menu i.fa-caret-down {
 	display: none;
 }
 
@@ -142,14 +147,15 @@ li > .fa-chevron-down {
 		margin: 0.05em;
 	}
 
-
 	#menu > div {
 		background-color: initial;
 		height: auto;
 		box-shadow: initial;	
 	}
 
-	#menu i, #menu h1 {
+	#menu > div, 
+	#menu h1, 
+	#menu li.trip-list-item .fa-chevron-down {
 		display: none;
 	}
 
@@ -157,15 +163,12 @@ li > .fa-chevron-down {
 		position: absolute;
 		right: 0;
 		top: 0;
+		width: auto;
 		overflow: hidden;
 		text-align: right;
 		height: 7.3em;
 		background-color: initial;
 		box-shadow: initial;
-	}
-
-	body > div img {
-		width: 100%;
 	}
 
 	#menu li {
@@ -193,6 +196,22 @@ li > .fa-chevron-down {
 
 	#menu li:hover a {
 		color: goldenrod;
+	}
+
+	#menu li.trip-list-item {
+		position: relative;
+	}
+
+	#menu i.fa-caret-down {
+		position: absolute;
+		bottom: 1em;
+		left: 45%;
+		display: initial;
+		font-size: 1.5em;
+	}
+
+	body > div img {
+		width: 100%;
 	}
 }
 
