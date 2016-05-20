@@ -159,7 +159,7 @@ li > .fa-chevron-down {
 		top: 0;
 		overflow: hidden;
 		text-align: right;
-		height: 7em;
+		height: 7.3em;
 		background-color: initial;
 		box-shadow: initial;
 	}
@@ -170,7 +170,7 @@ li > .fa-chevron-down {
 
 	#menu li {
 		display: inline;
-		padding: 4em 2em;
+		padding: 3em 2em;
 		line-height: 4em;
 		font-size: 1.2em;
 	}
@@ -179,9 +179,12 @@ li > .fa-chevron-down {
 		color: #fff;
 	}
 
-
 	#menu li.selected, #menu li:hover {
-	background-color: goldenrod;
+		background-color: goldenrod;
+	}
+
+	#menu li.selected a, #menu li:hover a {
+		color: #000;
 	}
 }
 
