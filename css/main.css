@@ -127,7 +127,7 @@ li > .fa-chevron-down {
 		background-color: #383838;
 		width: 100%;
 		color: #fff;
-		height: 7.2em;
+		height: 7.5em;
 		border-bottom: .4em solid goldenrod;
 	}
 
@@ -172,6 +172,7 @@ li > .fa-chevron-down {
 		display: inline;
 		padding: 4em 2em;
 		line-height: 4em;
+		font-size: 1.2em;
 	}
 
 	#menu li a {
