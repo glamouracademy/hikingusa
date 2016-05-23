@@ -192,11 +192,11 @@ li > .fa-chevron-down {
 		color: #000;
 	}
 
-	#menu li:hover {
+	#menu li:hover:not(.selected) {
 		background-color: initial;
 	}
 
-	#menu li:hover a {
+	#menu li:hover:not(.selected) a {
 		color: goldenrod;
 	}
 
