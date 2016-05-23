@@ -129,7 +129,15 @@ li > .fa-chevron-down {
 
 
 
+/* desktop */
+
 @media screen and (min-width: 768px) {
+	
+	.lg-container {
+		width: 85%;
+		margin: 0 auto;
+	}
+
 	header {
 		background-color: #383838;
 		width: 100%;
@@ -141,7 +149,6 @@ li > .fa-chevron-down {
 	header > div {
 		width: 25vw;
 		padding-top: .5em;
-		text-align: center;
 	}
 
 	header > div h1 {
@@ -165,9 +172,8 @@ li > .fa-chevron-down {
 		position: absolute;
 		right: 0;
 		top: 0;
-		width: auto;
+		width: 65%;
 		overflow: hidden;
-		text-align: right;
 		height: 7.3em;
 		background-color: initial;
 		box-shadow: initial;
@@ -175,9 +181,9 @@ li > .fa-chevron-down {
 
 	#menu li {
 		display: inline;
-		padding: 3em 2em;
+		padding: 3em 1.25em;
 		line-height: 4em;
-		font-size: 1.2em;
+		font-size: 1.3em;
 	}
 
 	#menu li a {
@@ -222,6 +228,7 @@ li > .fa-chevron-down {
 	body > div img {
 		width: 100%;
 	}
+
 }
 
 
