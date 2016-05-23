@@ -48,8 +48,10 @@ h1 {
 }
 
 #menu i.fa-times, #menu i.fa-bars {
-	padding-left: 1em;
+	margin-left: .5em;
+	padding: .3em .4em;
 	font-size: 1.5em;
+	background-color: rgba(241,241,241,0.8);
 }
 
 #menu h1 {
@@ -200,6 +202,13 @@ li > .fa-chevron-down {
 
 	#menu li.trip-list-item {
 		position: relative;
+	}
+
+	#menu li.trip-list-item:hover ul.trip-menu {
+		outline: 1px solid red;
+		display: block;
+		z-index: 999;
+		background-color: #fff;
 	}
 
 	#menu i.fa-caret-down {
