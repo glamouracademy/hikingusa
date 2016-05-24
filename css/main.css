@@ -159,6 +159,11 @@ tablet
 		margin: 0.05em;
 	}
 
+	header div.lg-container > div {
+		width: 20%;
+		text-align: center;
+	}
+
 	#menu > div {
 		background-color: initial;
 		height: auto;
