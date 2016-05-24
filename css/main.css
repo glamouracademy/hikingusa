@@ -261,6 +261,8 @@ tablet
 		top: 5em;
 		left: 100%;
 		width: 12em;
+		padding-top: .9em;
+		padding-bottom: .9em;
 	}
 
 	.fa-angle-right {
