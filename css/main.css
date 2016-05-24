@@ -208,13 +208,17 @@ tablet
 		color: goldenrod;
 	}
 
-	#menu li.trip-list-item:hover ul.trip-menu li > a {
+	#menu li.trip-list-item:hover ul.trip-menu li > a,
+	#menu li.trip-list-item ul.trip-menu li ul a,
+	#menu li.trip-list-item ul.trip-menu li.cycling-list ul a
+	{
 		color: initial;
 	}
 
 	#menu li.trip-list-item ul.trip-menu li:hover a,
-	#menu li.trip-list-item ul.trip-menu li:hover .fa-angle-right
-	 {
+	#menu li.trip-list-item ul.trip-menu li:hover .fa-angle-right,
+	#menu li.trip-list-item ul.trip-menu li > ul li:hover a
+	{
 		color: #29a329;
 	}
 
@@ -258,8 +262,6 @@ tablet
 		color: #000;
 		padding-left: .3em;
 	}
-
-	
 
 	#menu i.fa-caret-down {
 		position: absolute;
