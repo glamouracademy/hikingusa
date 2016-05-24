@@ -184,8 +184,7 @@ tablet
 
 	#menu li {
 		display: inline;
-		padding: 3em 1.25em;
-		line-height: 4em;
+		padding: 2.2em 1.25em;
 		font-size: 1.3em;
 	}
 
@@ -220,7 +219,7 @@ tablet
 		display: block;
 		background-color: #fff;
 		left: 0%;
-		top:6.3em;
+		top: 5.7em;
 	}
 
 	#menu ul.trip-menu > li {
@@ -235,11 +234,9 @@ tablet
 		font-size: 1em;
 	}
 
-
-
 	#menu i.fa-caret-down {
 		position: absolute;
-		bottom: 1em;
+		bottom: .5em;
 		left: 45%;
 		display: initial;
 		font-size: 1.5em;
