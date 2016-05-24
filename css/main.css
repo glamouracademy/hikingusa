@@ -212,7 +212,9 @@ tablet
 		color: initial;
 	}
 
-	#menu li.trip-list-item ul.trip-menu li:hover a {
+	#menu li.trip-list-item ul.trip-menu li:hover a,
+	#menu li.trip-list-item ul.trip-menu li:hover .fa-angle-right
+	 {
 		color: #29a329;
 	}
 
@@ -240,6 +242,11 @@ tablet
 	#menu ul.trip-menu li a {
 		color: #000;
 		font-size: 1em;
+	}
+
+	.fa-angle-right {
+		color: #000;
+		padding-left: .3em;
 	}
 
 
