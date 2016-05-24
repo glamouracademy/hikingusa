@@ -208,6 +208,14 @@ tablet
 		color: goldenrod;
 	}
 
+	#menu li.trip-list-item:hover ul.trip-menu li > a {
+		color: initial;
+	}
+
+	#menu li.trip-list-item ul.trip-menu li:hover a {
+		color: #29a329;
+	}
+
 	#menu li.trip-list-item {
 		position: relative;
 	}
@@ -233,6 +241,7 @@ tablet
 		color: #000;
 		font-size: 1em;
 	}
+
 
 	#menu i.fa-caret-down {
 		position: absolute;
