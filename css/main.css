@@ -234,6 +234,8 @@ tablet
 	#menu li.trip-list-item ul.trip-menu {
 		left: 0%;
 		top: 3.2em;
+		-webkit-box-shadow: 5px 0px 5px 0px rgba(144,144,144,0.75);
+		-moz-box-shadow: 5px 0px 5px 0px rgba(144,144,144,0.75);
 		box-shadow: 5px 0px 5px 0px rgba(144,144,144,0.75);
 	}
 
