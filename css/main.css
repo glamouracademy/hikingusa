@@ -233,7 +233,7 @@ tablet
 
 	#menu li.trip-list-item ul.trip-menu {
 		left: 0%;
-		top: 5.7em;
+		top: 3.2em;
 	}
 
 	#menu ul.trip-menu > li,
@@ -306,6 +306,10 @@ desktop
 	#menu i.fa-caret-down { 
 		font-size: 1.5em;
 		bottom: .5em;
+	}
+
+		#menu li.trip-list-item ul.trip-menu {
+		top: 5.9em;
 	}
 
 }
