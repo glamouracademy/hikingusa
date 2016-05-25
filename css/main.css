@@ -135,34 +135,25 @@ tablet
 *****/
 
 @media screen and (min-width: 768px) {
-	
-	.lg-container {
-		width: 85%;
-		margin: 0 auto;
-	}
 
 	header {
 		background-color: #383838;
 		width: 100%;
 		color: #fff;
-		height: 7.5em;
+		height: 9.3em;
 		border-bottom: .4em solid goldenrod;
 	}
 
-	header > div {
-		width: 25vw;
+	header div.lg-container > div {
+		text-align: center;
 		padding-top: .5em;
 	}
 
-	header > div h1 {
+	header div.lg-container > div h1 {
 		font-size: 1em;
 		margin: 0.05em;
 	}
 
-	header div.lg-container > div {
-		width: 20%;
-		text-align: center;
-	}
 
 	#menu > div {
 		background-color: initial;
@@ -178,18 +169,21 @@ tablet
 
 	#menu > ul {
 		position: absolute;
-		right: 0;
-		top: 0;
-		width: 65%;
+		width: 100%;
 		overflow: visible;
-		height: 7.3em;
+		height: 4em;
 		background-color: initial;
 		box-shadow: initial;
+		top: 5em;
+		/*padding-top: 1em;*/
+		outline: 1px solid white;
 	}
 
 	#menu li {
 		display: inline;
-		padding: 2.2em 1.25em;
+		line-height: 0;
+		outline: 1px solid red;
+		padding: .8em 1em;
 		font-size: 1.3em;
 	}
 
@@ -274,7 +268,7 @@ tablet
 		position: absolute;
 		bottom: .5em;
 		left: 45%;
-		display: initial;
+		display: block;
 		font-size: 1.5em;
 	}
 
@@ -290,7 +284,29 @@ desktop
 *****/
 
 @media screen and (min-width: 1025px)  {
+	.lg-container {
+		width: 85%;
+		margin: 0 auto;
+	}
 
+	header {
+		height: 7.5em;
+	}
+
+	header div.lg-container > div {
+		width: 20%;
+	}
+
+	#menu > ul {
+		right: 0;
+		top: 1.5em;
+		width: 65%;
+		/*height: 7.3em;*/
+	}
+
+	#menu li {
+		padding: 2.2em 1.25em;
+	}
 }
 
 
