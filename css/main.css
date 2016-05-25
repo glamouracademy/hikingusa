@@ -231,13 +231,8 @@ tablet
 		position: relative;
 	}
 
-	/*#menu ul.trip-menu,
-	#menu ul.trip-menu ul {
-	display: none;
-	}*/
-
 	#menu li.trip-list-item:hover ul.trip-menu,
-	#menu ul.trip-menu ul {
+	#menu ul.trip-menu li.cycling-list:hover ul {
 		padding: .5em;
 		text-align: center;
 		position: absolute;
