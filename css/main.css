@@ -231,7 +231,12 @@ tablet
 		position: relative;
 	}
 
-	#menu li.trip-list-item ul.trip-menu,
+	/*#menu ul.trip-menu,
+	#menu ul.trip-menu ul {
+	display: none;
+	}*/
+
+	#menu li.trip-list-item:hover ul.trip-menu,
 	#menu ul.trip-menu ul {
 		padding: .5em;
 		text-align: center;
