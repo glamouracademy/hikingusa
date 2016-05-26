@@ -34,7 +34,7 @@ h1 {
 
 /* mobile menu presentation */
 
-#menu > div {
+#menu > div:first-child {
 	margin: 0;
 	-webkit-box-shadow: 0px 3px 4px 0px rgba(204,204,204,1);
 	-moz-box-shadow: 0px 3px 4px 0px rgba(204,204,204,1);
@@ -45,6 +45,7 @@ h1 {
 	width: 100%;
 	top: 0;
 	height: 3.3em;
+	color: #000;
 }
 
 #menu i.fa-times, #menu i.fa-bars {
@@ -138,7 +139,7 @@ header {
 		border-bottom: .4em solid goldenrod;
 	}
 
-header div.lg-container > div {
+header div.lg-container > div:first-child {
 		text-align: center;
 		padding-top: 4em;
 	}
