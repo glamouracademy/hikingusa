@@ -92,6 +92,7 @@ li > .fa-chevron-down {
 	height: 100vh;
 	overflow: auto;
 	padding-left:0;
+	display: none;
 }
 
 #menu li {
@@ -127,26 +128,16 @@ li > .fa-chevron-down {
 #menu i.fa-caret-down {
 	display: none;
 }
-
-
-
-/***** 
-tablet 
-*****/
-
-@media screen and (min-width: 768px) {
-
-	header {
+header {
 		background-color: #383838;
 		width: 100%;
 		color: #fff;
 		height: 9.3em;
 		border-bottom: .4em solid goldenrod;
 	}
-
 	header div.lg-container > div {
 		text-align: center;
-		padding-top: .5em;
+		padding-top: 4em;
 	}
 
 	header div.lg-container > div h1 {
@@ -154,6 +145,12 @@ tablet
 		margin: 0.05em;
 	}
 
+
+/***** 
+tablet 
+*****/
+
+@media screen and (min-width: 768px) {
 
 	#menu > div {
 		background-color: initial;
