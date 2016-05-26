@@ -128,6 +128,8 @@ li > .fa-chevron-down {
 #menu i.fa-caret-down {
 	display: none;
 }
+
+
 header {
 		background-color: #383838;
 		width: 100%;
@@ -135,12 +137,13 @@ header {
 		height: 9.3em;
 		border-bottom: .4em solid goldenrod;
 	}
-	header div.lg-container > div {
+
+header div.lg-container > div {
 		text-align: center;
 		padding-top: 4em;
 	}
 
-	header div.lg-container > div h1 {
+header div.lg-container > div h1 {
 		font-size: 1em;
 		margin: 0.05em;
 	}
@@ -151,6 +154,10 @@ tablet
 *****/
 
 @media screen and (min-width: 768px) {
+
+	header div.lg-container > div {
+		padding-top: .5em;
+	}
 
 	#menu > div {
 		background-color: initial;
@@ -172,7 +179,9 @@ tablet
 		background-color: initial;
 		box-shadow: initial;
 		top: 5em;
+		display: inherit;
 	}
+
 
 	#menu li {
 		display: inline;
