@@ -32,7 +32,7 @@ h1 {
 	font-family: 'Roboto Slab', sans-serif;
 }
 
-/* mobile menu presentation */
+/* mobile header and nav presentation */
 
 #menu > div:first-child {
 	margin: 0;
@@ -119,9 +119,6 @@ li > .fa-chevron-down {
 	color: #4d4d4d;
 }
 
-
-/* hide mobile menu */
-
 #menu i.fa-bars {
 	display: none;
 }
@@ -129,7 +126,6 @@ li > .fa-chevron-down {
 #menu i.fa-caret-down {
 	display: none;
 }
-
 
 header {
 		background-color: #383838;
@@ -149,6 +145,28 @@ header div.lg-container > div h1 {
 		margin: 0.05em;
 	}
 
+/* mobile banner presentation */
+	div.banner {
+		outline: 2px solid blue;
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+
+		height: 50vh;
+	}
+
+	div.banner > img {
+		outline: 2px solid red;
+		position: relative;
+		left: 100%;
+		margin-left: -290%;
+		top: 100%;
+		margin-top: -50%;
+
+	}
+
+
+
 
 /***** 
 tablet 
@@ -156,6 +174,8 @@ tablet
 
 @media screen and (min-width: 768px) {
 
+
+/* tablet header and nav presentation */
 	header div.lg-container > div:first-child {
 		padding-top: .5em;
 	}
@@ -279,7 +299,8 @@ tablet
 		display: block;
 	}
 
-	body > div img {
+/* tablet banner */
+	body > div.banner {
 		width: 100%;
 	}
 
@@ -291,6 +312,8 @@ desktop
 *****/
 
 @media screen and (min-width: 1025px)  {
+
+/* desktop header and nav presentation */
 	.lg-container {
 		width: 85%;
 		margin: 0 auto;
@@ -308,7 +331,6 @@ desktop
 		right: 0;
 		top: 1.5em;
 		width: 65%;
-		/*height: 7.3em;*/
 	}
 
 	#menu li {
@@ -320,7 +342,7 @@ desktop
 		bottom: .5em;
 	}
 
-		#menu li.trip-list-item ul.trip-menu {
+	#menu li.trip-list-item ul.trip-menu {
 		top: 5.9em;
 	}
 
