@@ -50,7 +50,8 @@ h1 {
 
 #menu i.fa-times, #menu i.fa-bars {
 	margin-left: .5em;
-	padding: .3em .4em;
+	margin-top: 0.3em;
+	padding: .4em .5em;
 	font-size: 1.5em;
 	background-color: rgba(241,241,241,0.8);
 }
