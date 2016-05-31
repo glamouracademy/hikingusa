@@ -194,6 +194,17 @@ header div.lg-container > div h1 {
 		height:380px;
 	}
 
+
+/***** 
+lg mobile 
+*****/
+
+@media screen and (min-width: 610px) {
+	div.banner > img {
+		margin-left: initial;
+	}
+}
+
 /***** 
 tablet 
 *****/
