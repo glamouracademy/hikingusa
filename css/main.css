@@ -203,6 +203,16 @@ header div.lg-container > div h1 {
 		padding: 2.7em;
 	}
 
+	.join-club > div {
+		margin-top: 3em;
+		margin-bottom: 4em;
+	}
+
+	.join-club p {
+		font-weight: 800;
+		font-size: 1.05em;
+	}
+
 	#googleMap {
 		width: auto;
 		height:380px;
