@@ -30,6 +30,11 @@ header {
 
 h1 {
 	font-family: 'Roboto Slab', sans-serif;
+	font-size: 2.6em;
+	margin: 0.2em .7em;
+	line-height: 1.2em;
+	text-align: center;
+	padding-top: 1.5em;
 }
 
 /* mobile header and nav presentation */
@@ -138,13 +143,14 @@ header {
 	}
 
 header div.lg-container > div:first-child {
-		text-align: center;
 		padding-top: 4em;
+		text-align: center;
 	}
 
 header div.lg-container > div h1 {
 		font-size: 1em;
 		margin: 0.05em;
+		padding-top: initial;
 	}
 
 /* mobile banner presentation */
@@ -166,9 +172,7 @@ header div.lg-container > div h1 {
 	div.banner > h1 {
 		position: absolute;
 		top: 19vh;
-		font-size: 2.6em;
-		margin: 0.2em .7em;
-		line-height: 1.2em;
+		padding-top: initial;
 	}
 
 	.banner-button {
