@@ -37,6 +37,15 @@ h1 {
 	padding-top: 1.5em;
 }
 
+.button {
+	padding: .5em 2.5em;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #fff;
+	border-bottom: .2em solid #29a329;
+	background-color: rgba(80, 184, 46, 1);
+}
+
 /* mobile header and nav presentation */
 
 #menu > div:first-child {
@@ -139,7 +148,7 @@ header {
 		width: 100%;
 		color: #fff;
 		height: 9.3em;
-		border-bottom: .4em solid goldenrod;
+		border-bottom: .4em solid #f9b324;
 	}
 
 header div.lg-container > div:first-child {
@@ -184,13 +193,11 @@ header div.lg-container > div h1 {
 		margin:0 auto;
 	}
 
-	.button {
-		padding: .5em 2.5em;
-		font-size: 1.5em;
-		font-weight: 700;
-		color: #fff;
-		border-bottom: .2em solid #29a329;
-		background-color: rgba(80, 184, 46, 1);
+	/* join our club */
+	.club-icons {
+		background-color: #f9b324;
+		border-radius: 100px;
+		padding: 2.5em;
 	}
 
 	#googleMap {
@@ -257,7 +264,7 @@ tablet
 	}
 
 	#menu li.selected {
-		background-color: goldenrod;
+		background-color: #f9b324;
 	}
 
 	#menu li.selected a {
@@ -269,7 +276,7 @@ tablet
 	}
 
 	#menu li:hover:not(.selected) a {
-		color: goldenrod;
+		color: #f9b324;
 	}
 
 	#menu li.trip-list-item:hover ul.trip-menu li > a,
