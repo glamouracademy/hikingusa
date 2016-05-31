@@ -171,6 +171,24 @@ header div.lg-container > div h1 {
 		line-height: 1.2em;
 	}
 
+	.banner-button {
+		top:42vh;
+		position: absolute;
+		left:0;
+		right:0;
+		max-width: 7em;
+		margin:0 auto;
+	}
+
+	.button {
+		padding: .5em 2.5em;
+		font-size: 1.5em;
+		font-weight: 700;
+		color: #fff;
+		border-bottom: .2em solid #29a329;
+		background-color: rgba(80, 184, 46, 1);
+	}
+
 	#googleMap {
 		width: auto;
 		height:380px;
