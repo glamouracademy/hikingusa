@@ -317,7 +317,12 @@ tablet
 		zoom: 70%;
 		margin-left: -44%;
 		margin-top: 0;
+	}
 
+	div.banner > h1 {
+		top: 27vh;
+		font-size: 3.5em;
+		width: initial;
 	}
 
 }
