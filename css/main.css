@@ -149,7 +149,6 @@ header div.lg-container > div h1 {
 
 /* mobile banner presentation */
 	div.banner {
-		outline: 2px solid blue;
 		width: 100%;
 		text-align: center;
 		overflow: hidden;
@@ -157,7 +156,6 @@ header div.lg-container > div h1 {
 	}
 
 	div.banner > img {
-		outline: 2px solid red;
 		left: 100%;
 		margin-left: -152%;
 		top: 100%;
@@ -168,9 +166,8 @@ header div.lg-container > div h1 {
 	div.banner > h1 {
 		position: absolute;
 		top: 19vh;
-		font-size: 2.5em;
-		width: 83%;
-		margin: 0.2em .5em;
+		font-size: 2.6em;
+		margin: 0.2em .7em;
 		line-height: 1.2em;
 	}
 
@@ -178,9 +175,6 @@ header div.lg-container > div h1 {
 		width: auto;
 		height:380px;
 	}
-
-
-
 
 /***** 
 tablet 
@@ -327,7 +321,7 @@ tablet
 	div.banner > h1 {
 		top: 27vh;
 		font-size: 3.5em;
-		width: initial;
+		width: auto;
 	}
 
 }
@@ -379,6 +373,11 @@ desktop
 	div.banner > img {
 		zoom: 73%;
 		margin-left: -20%;
+	}
+
+	div.banner > h1 {
+		width: 100%;
+		margin: auto;
 	}
 
 }
