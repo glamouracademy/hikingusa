@@ -13,6 +13,7 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
+	text-align: center;
 }
 
 ul {
@@ -60,6 +61,7 @@ h1 {
 	top: 0;
 	height: 3.3em;
 	color: #000;
+	text-align: left;
 }
 
 #menu i.fa-times, #menu i.fa-bars {
@@ -109,6 +111,7 @@ li > .fa-chevron-down {
 	height: 100vh;
 	overflow: auto;
 	padding-left:0;
+	text-align: left;
 	display: none;
 }
 
@@ -153,7 +156,7 @@ header {
 
 header div.lg-container > div:first-child {
 		padding-top: 4em;
-		text-align: center;
+		/*text-align: center;*/
 	}
 
 header div.lg-container > div h1 {
@@ -165,7 +168,7 @@ header div.lg-container > div h1 {
 /* mobile banner presentation */
 	div.banner {
 		width: 100%;
-		text-align: center;
+		/*text-align: center;*/
 		overflow: hidden;
 		height: 50vh;
 	}
@@ -197,7 +200,7 @@ header div.lg-container > div h1 {
 	.club-icons {
 		background-color: #f9b324;
 		border-radius: 100px;
-		padding: 2.5em;
+		padding: 2.7em;
 	}
 
 	#googleMap {
