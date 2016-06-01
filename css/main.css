@@ -224,6 +224,48 @@ header div.lg-container > div h1 {
 		height:380px;
 	}
 
+	/* adventures */
+	.adventures {
+		outline: 1px solid red;
+		background-color: #f1f1f1;
+	}
+
+	.adventures > div {
+		position: relative;
+		max-width: 30%;
+		margin: 4em auto;
+		zoom: 1.26;
+		outline:1px solid red;
+	}
+
+	.adventures img {
+		display: block;
+		max-width: 320px;
+		max-height: 246px;
+		width: auto;
+		height: auto;
+		/*margin: 0 auto;*/
+		outline: 1px solid blue;
+	}
+
+	.adventures > div div {
+		position: absolute;
+		background-color: #29a329;
+		bottom: -48px;
+		height: 4em;
+		/*margin: auto .4em;*/
+		text-align:center;
+		outline: 1px solid green;
+		width:100%;
+		padding-top: 1em;
+	}
+
+	.adventures a {
+		color: #fff;
+		outline:1px solid yellow;
+	}
+
+
 
 /***** 
 lg mobile 
