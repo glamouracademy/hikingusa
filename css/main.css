@@ -62,7 +62,7 @@ h1 {
 	height: 3.3em;
 	color: #000;
 	text-align: left;
-	padding-top: .7em;
+	padding-top: .5em;
 }
 
 #menu i.fa-times, #menu i.fa-bars {
@@ -75,7 +75,7 @@ h1 {
 
 #menu h1 {
 	display: inline-block;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	letter-spacing: .07em;
 	padding: .45em;
 	margin: 0;
