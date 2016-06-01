@@ -451,6 +451,11 @@ desktop
 		background-color: #29a329;
 	}
 
+	.join-club > div {
+		display: inline-block;
+		width:33%;
+	}
+
 }
 
 
