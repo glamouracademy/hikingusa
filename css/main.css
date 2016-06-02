@@ -225,46 +225,31 @@ header div.lg-container > div h1 {
 	}
 
 	/* adventures */
+
 	.adventures {
-		outline: 1px solid red;
+		padding-bottom: 9.5em;
 		background-color: #f1f1f1;
 	}
 
-	.adventures > div {
-		position: relative;
-		max-width: 85%;
-		margin: 4em auto;
-		zoom: 1.26;
-		outline:1px solid red;
-	}
-
-	.adventures img {
+	.adventures > img {
 		display: block;
-		max-width: 320px;
-		max-height: 246px;
-		width: auto;
-		height: auto;
-		/*margin: 0 auto;*/
-		outline: 1px solid blue;
+		margin: 3.5em auto 0;
 	}
 
-	.adventures > div div {
-		position: absolute;
-		background-color: #29a329;
-		bottom: -48px;
-		height: 4em;
-		/*margin: auto .4em;*/
-		text-align:center;
-		outline: 1px solid green;
-		width:100%;
-		padding-top: 1em;
-	}
-
-	.adventures a {
+	.adventures > a {
 		color: #fff;
-		outline:1px solid yellow;
+		display: block;
+		margin: 0 auto;
+		height: 4em;
+		background-color: #29a329;
+		width: 270px;
 	}
 
+	.adventures img:not(:first-of-type),
+	.adventures a:not(:first-of-type)
+	 {
+		display:none;
+	}
 
 
 /***** 
