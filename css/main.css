@@ -231,12 +231,12 @@ header div.lg-container > div h1 {
 		background-color: #f1f1f1;
 	}
 
-	.adventures > img {
+	.adventures img {
 		display: block;
 		margin: 3.5em auto 0;
 	}
 
-	.adventures > a {
+	.adventures a {
 		color: #fff;
 		display: block;
 		margin: 0 auto;
@@ -245,11 +245,11 @@ header div.lg-container > div h1 {
 		width: 270px;
 	}
 
-	.adventures img:not(:first-of-type),
+	/*.adventures img:not(:first-of-type),
 	.adventures a:not(:first-of-type)
 	 {
 		display:none;
-	}
+		}*/
 
 
 /***** 
@@ -413,6 +413,13 @@ tablet
 	.banner-button {
 		top: 49vh;
 	}
+
+/* adventures */
+/*	.adventures img:not(:first-of-type),
+	.adventures a:not(:first-of-type)
+	 {
+		display:block;
+	}*/
 
 }
 
