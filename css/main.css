@@ -252,6 +252,11 @@ header div.lg-container > div h1 {
 		display:none;
 	}
 
+	.news_img {
+		background-color: #ededed;
+		opacity: 0.5;
+	}
+
 
 /***** 
 lg mobile 
