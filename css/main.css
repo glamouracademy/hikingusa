@@ -248,11 +248,9 @@ header div.lg-container > div h1 {
 		width: 270px;
 	}
 
-	/*.adventures img:not(:first-of-type),
-	.adventures a:not(:first-of-type)
-	 {
+	div.visible-mobile {
 		display:none;
-		}*/
+	}
 
 
 /***** 
@@ -418,11 +416,10 @@ tablet
 	}
 
 /* adventures */
-/*	.adventures img:not(:first-of-type),
-	.adventures a:not(:first-of-type)
-	 {
-		display:block;
-	}*/
+
+	div.visible-tablet {
+		display: block;
+	}
 
 	.adventures {
 		height:41em;
