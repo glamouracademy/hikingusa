@@ -240,6 +240,9 @@ header div.lg-container > div h1 {
 		color: #fff;
 		display: block;
 		margin: 0 auto;
+		font-size: 1.1em;
+		padding-top: 5%;
+		font-weight: 700;
 		height: 4em;
 		background-color: #29a329;
 		width: 270px;
