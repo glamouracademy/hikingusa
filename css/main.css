@@ -421,6 +421,14 @@ tablet
 		display:block;
 	}*/
 
+	.adventures {
+		height:41em;
+	}
+
+	.adventures div {
+		width: 50%;
+		float: left;
+	}
 }
 
 
