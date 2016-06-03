@@ -252,15 +252,31 @@ header div.lg-container > div h1 {
 		display:none;
 	}
 
-	.news_img {
-		background-color: #ededed;
-		opacity: 0.5;
+/* news */ 
+
+	.news-container {
+		position:relative;
+		width: 100%;
 	}
 
+	.news-container > div {
+		position:absolute;
+		width:100%;
+		top:1em;
+	}
 
-/***** 
+	.news-container > div, .news-container > span {
+		outline:1px solid red;
+		
+	} 
+
+
+
+
+
+/******* 
 lg mobile 
-*****/
+********/
 
 @media screen and (min-width: 610px) {
 	div.banner > img {
