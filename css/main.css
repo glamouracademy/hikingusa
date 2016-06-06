@@ -256,20 +256,22 @@ header div.lg-container > div h1 {
 
 	.news-container {
 		position:relative;
-		width: 100%;
+		overflow: hidden;
+	}
+
+	.news-container > div, .news-container > span, .news-container > img {
+		height: 165vh;
 	}
 
 	.news-container > div {
-		position:absolute;
-		width:100%;
+		position: absolute;
 		top:0.1em;
-	}
-
-	.news-container > div, .news-container > span {
 		outline:1px solid red;
 		background: rgba(65, 65, 65, 0.9);
 		color: #fff;
 	} 
+
+	
 
 
 
