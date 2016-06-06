@@ -39,12 +39,13 @@ h1 {
 }
 
 .button {
-	padding: .5em 2.5em;
-	font-size: 1.5em;
+	padding: .8rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	color: #fff;
-	border-bottom: .2em solid #29a329;
+	border-bottom: .2rem solid #29a329;
 	background-color: rgba(80, 184, 46, 1);
+	width: 10rem;
 }
 
 /* mobile header and nav presentation */
@@ -173,7 +174,6 @@ header div.lg-container > div h1 {
 /* mobile banner presentation */
 	div.banner {
 		width: 100%;
-		/*text-align: center;*/
 		overflow: hidden;
 		height: 50vh;
 	}
@@ -197,7 +197,6 @@ header div.lg-container > div h1 {
 		position: absolute;
 		left:0;
 		right:0;
-		max-width: 7em;
 		margin:0 auto;
 	}
 
@@ -283,8 +282,6 @@ header div.lg-container > div h1 {
 		font-weight: 100;
 		color: #f9b324;
 	}
-
-
 
 
 
