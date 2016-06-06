@@ -259,17 +259,24 @@ header div.lg-container > div h1 {
 		overflow: hidden;
 	}
 
-	.news-container > div, .news-container > span, .news-container > img {
+	.news-container > div, .news-container > img {
 		height: 165vh;
 	}
 
 	.news-container > div {
 		position: absolute;
-		top:0.1em;
-		outline:1px solid red;
+		top:0;
 		background: rgba(65, 65, 65, 0.9);
 		color: #fff;
+		padding-right: 1em;
+		padding-left: 1em;
 	} 
+
+	.news-container > div div {
+		outline: 1px solid blue;
+	}
+
+
 
 	
 
