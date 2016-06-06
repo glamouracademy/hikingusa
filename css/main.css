@@ -43,7 +43,7 @@ h1 {
 	font-size: 1.5rem;
 	font-weight: 700;
 	color: #fff;
-	border-bottom: .2rem solid #29a329;
+	border-bottom: .2rem solid #198c19;
 	background-color: rgba(80, 184, 46, 1);
 	width: 10rem;
 }
@@ -265,7 +265,7 @@ header div.lg-container > div h1 {
 	.news-container > div {
 		position: absolute;
 		top:0;
-		background: rgba(72, 78, 85, 0.9);
+		background: rgba(72, 65, 65, 0.9);
 		color: #fff;
 		padding-right: 1em;
 		padding-left: 1em;
