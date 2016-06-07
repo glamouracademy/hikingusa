@@ -480,11 +480,24 @@ tablet
 		width: 50%;
 		float:left;
 		text-align: left;
+		outline:1px solid yellow;
+		/*clear:both;*/
+	}
+
+	.news-container > div:after {
+	/*	outline:5px solid teal;
+		content:"";
+		display:initial;
+		clear:both;*/
 	}
 
 	.news-container > div, .news-container > img {
 		height: 75em;
 	}
+
+	.clearfix {
+		clear:both;
+		}
 }
 
 
@@ -566,6 +579,21 @@ desktop
 	.adventures img,
 	.adventures a {
 		width: 87%;
+	}
+
+	.news-container > div {
+		padding-left: 1em;
+		padding-right: 1em
+	}
+
+	.news-container > div div {
+		width: 33%;
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+
+	.news-container > div, .news-container > img {
+		height: 53em;
 	}
 
 
