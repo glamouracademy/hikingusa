@@ -235,20 +235,22 @@ header div.lg-container > div h1 {
 	}
 
 	.adventure-grp {
+		position:relative;
 		width:20em;
 		height:20em;
 		overflow: hidden;
 		margin: 0 auto;
 	}
 
-	.adventures img {
+	.adventure-grp img {
 		outline:2px solid red;
 		display: block;
-		height:100%;
-		margin-left: -5em;
+		height:80%;
+		margin-left: -3em;
 	}
 
 	.adventures a {
+		position:absolute;
 		color: #fff;
 		display: block;
 		margin: 0 auto;
@@ -257,7 +259,7 @@ header div.lg-container > div h1 {
 		font-weight: 700;
 		height: 4em;
 		background-color: #29a329;
-		width: 270px;
+		width: 100%;
 	}
 
 	div.visible-mobile {
