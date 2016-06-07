@@ -274,7 +274,6 @@ header div.lg-container > div h1 {
 	.news-container > div div {
 		padding-top: 1em;
 		padding-bottom: 1em;
-
 	}
 
 	.news-container div > h2:first-child {
@@ -473,6 +472,18 @@ tablet
 	.adventures div {
 		width: 50%;
 		float: left;
+	}
+
+
+/* news and events */
+	.news-container > div div {
+		width: 50%;
+		float:left;
+		text-align: left;
+	}
+
+	.news-container > div, .news-container > img {
+		height: 75em;
 	}
 }
 
