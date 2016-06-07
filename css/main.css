@@ -230,9 +230,22 @@ header div.lg-container > div h1 {
 		background-color: #f1f1f1;
 	}
 
+	.adventures h1 {
+		padding-bottom: 1.2em;
+	}
+
+	.adventure-grp {
+		width:20em;
+		height:20em;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+
 	.adventures img {
+		outline:2px solid red;
 		display: block;
-		margin: 3.5em auto 0;
+		height:100%;
+		margin-left: -5em;
 	}
 
 	.adventures a {
