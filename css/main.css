@@ -480,15 +480,6 @@ tablet
 		width: 50%;
 		float:left;
 		text-align: left;
-		outline:1px solid yellow;
-		/*clear:both;*/
-	}
-
-	.news-container > div:after {
-	/*	outline:5px solid teal;
-		content:"";
-		display:initial;
-		clear:both;*/
 	}
 
 	.news-container > div, .news-container > img {
@@ -497,7 +488,7 @@ tablet
 
 	.clearfix {
 		clear:both;
-		}
+	}
 }
 
 
@@ -594,6 +585,10 @@ desktop
 
 	.news-container > div, .news-container > img {
 		height: 53em;
+	}
+
+	.clearfix {
+		clear: initial;
 	}
 
 
