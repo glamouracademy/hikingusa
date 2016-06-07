@@ -520,10 +520,6 @@ tablet
 
 
 
-
-
-
-
 /* news and events */
 	.news-container > div div {
 		width: 50%;
@@ -619,17 +615,18 @@ desktop
 	}
 
 	div.adventure-grp {
-		display:block;
-		width: 25%;
+		display:inline-block;
+		height:16em;
+		width:13.5em;
+		margin: 0 .6em;
+	}
+
+	.adventure-grp img {
+		height: 73%;
 	}
 
 	.adventures {
 		height: 36em;
-	}
-
-	.adventures img,
-	.adventures a {
-		width: 87%;
 	}
 
 	.news-container > div {
