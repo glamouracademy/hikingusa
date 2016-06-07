@@ -517,6 +517,17 @@ tablet
 	.clearfix {
 		clear:both;
 	}
+
+	/* testimonials */
+	.testimonials div {
+		text-align: left;
+	}
+
+	.testimonials img {
+		float: left;
+		margin-right: 1em;
+		margin-bottom: 3em;
+	}
 }
 
 
