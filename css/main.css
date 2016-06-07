@@ -289,6 +289,34 @@ header div.lg-container > div h1 {
 		margin-bottom: 2em;
 	}
 
+	.testimonials {
+		padding: 1.2em 1em;
+	}
+	
+	.testimonials h1 {
+		margin-bottom: 1.5em;
+	}
+
+	.testimonials div + div {
+		outline: 1px solid red;
+	}
+
+	.testimonials img {
+		border-radius: 50%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.testimonials q {
+		font-size: 1.2em;
+		quotes: none;
+	}
+
+	.testimonials p {
+		font-size: 1.2em;
+		font-weight: 600;
+	}
+
 
 
 	
