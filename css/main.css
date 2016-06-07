@@ -249,7 +249,7 @@ header div.lg-container > div h1 {
 		margin-left: -3em;
 	}
 
-	.adventures a {
+	.adventure-grp a {
 		position:absolute;
 		color: #fff;
 		display: block;
@@ -504,18 +504,24 @@ tablet
 
 /* adventures */
 
-	div.visible-tablet {
-		display: block;
-	}
-
 	.adventures {
 		height:41em;
 	}
 
-	.adventures div {
-		width: 50%;
-		float: left;
+	.adventures h1 + div, div.visible-tablet {
+		display: inline-block;
 	}
+
+	.adventure-grp {
+		height: 22em;
+		width: 22em;
+		margin: 0 1em;
+	}
+
+
+
+
+
 
 
 /* news and events */
