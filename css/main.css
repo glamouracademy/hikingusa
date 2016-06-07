@@ -298,7 +298,7 @@ header div.lg-container > div h1 {
 	}
 
 	.testimonials div + div {
-		outline: 1px solid red;
+		display:none;
 	}
 
 	.testimonials img {
