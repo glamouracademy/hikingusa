@@ -526,7 +526,7 @@ tablet
 	.testimonials img {
 		float: left;
 		margin-right: 1em;
-		margin-bottom: 3em;
+		margin-bottom: 5.5em;
 	}
 }
 
@@ -628,6 +628,15 @@ desktop
 
 	.clearfix {
 		clear: initial;
+	}
+
+	.testimonials div + div {
+		display: inherit;
+	}
+
+	.testimonials div {
+		width: 50%;
+		float: left;
 	}
 
 
