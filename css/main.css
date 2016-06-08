@@ -156,13 +156,21 @@ li > .fa-chevron-down {
 }
 
 .navigation li {
-	outline: 1px solid red;
 	line-height: 3.5em;
+}
+
+.bottom-nav {
+		background-color: #383838;
+		padding-top: 3em;
 }
 
 .bottom-nav .navigation a {
 	color: #fff;
 	font-size: 1.3em;
+}
+
+.bottom-nav .navigation a.selected {
+	color: #f9b324;
 }
 
 header {
@@ -345,9 +353,7 @@ header div.lg-container > div h1 {
 		font-weight: 600;
 	}
 
-	.bottom-nav {
-		background-color: #383838;
-	}
+	
 
 
 
