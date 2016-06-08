@@ -94,8 +94,8 @@ li > .fa-chevron-down {
 }
 
 /* hide trips submenu by default */
-#menu ul.trip-menu,
-#menu ul.trip-menu ul {
+.navigation ul.trip-menu,
+.navigation ul.trip-menu ul {
 	display: none;
 }
 
@@ -112,17 +112,16 @@ li > .fa-chevron-down {
 	margin: 0;
 	height: 100vh;
 	overflow: auto;
-	padding-left:0;
 	text-align: left;
 	display: none;
 }
 
 #menu li {
-	line-height: 3.5em;
 	padding-left: 1.5em;
 }
 
 #menu li.selected, #menu li:hover {
+	outline: 1px solid green;
 	background-color: rgba(80, 184, 46, 0.8);
 }
 
@@ -150,6 +149,15 @@ li > .fa-chevron-down {
 
 #menu i.fa-caret-down {
 	display: none;
+}
+
+.navigation {
+	padding-left:0;
+}
+
+.navigation li {
+	outline: 1px solid red;
+	line-height: 3.5em;
 }
 
 header {
@@ -330,6 +338,10 @@ header div.lg-container > div h1 {
 	.testimonials p {
 		font-size: 1.2em;
 		font-weight: 600;
+	}
+
+	.bottom-nav {
+		background-color: #383838;
 	}
 
 
