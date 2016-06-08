@@ -161,7 +161,11 @@ li > .fa-chevron-down {
 
 .bottom-nav {
 		background-color: #383838;
-		padding-top: 3em;
+}
+
+.bottom-nav .navigation {
+	padding-top: 3em;
+	padding-bottom: 3em; 
 }
 
 .bottom-nav .navigation a {
@@ -172,6 +176,12 @@ li > .fa-chevron-down {
 .bottom-nav .navigation a.selected {
 	color: #f9b324;
 }
+
+.fa-map-marker, .fa-envelope-o {
+	color: #f9b324;
+}
+
+
 
 header {
 		background-color: #383838;
