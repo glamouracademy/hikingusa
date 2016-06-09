@@ -332,8 +332,8 @@ header div.lg-container > div h1 {
 	}
 
 	.news-container p,
-	address p,
-	address a {
+	address a,
+	.bottom-nav p {
 		color: rgba(181,196,213,0.9);
 		font-style: normal;
 	}
@@ -397,6 +397,10 @@ header div.lg-container > div h1 {
 		width:1.7em;
 		height:1.7em;
 		padding:.3em;
+	}
+
+	.bottom-nav > p {
+		padding: 5em 3em;
 	}
 
 	
