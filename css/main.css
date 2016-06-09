@@ -721,6 +721,10 @@ desktop
 		clear: initial;
 	}
 
+	.testimonials {
+		height: 30em;
+	}
+
 	.testimonials div + div {
 		display: inherit;
 	}
