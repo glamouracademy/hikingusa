@@ -177,7 +177,8 @@ li > .fa-chevron-down {
 	color: #f9b324;
 }
 
-.fa-map-marker, .fa-envelope-o {
+.fa-map-marker, .fa-envelope-o,
+ul.social-media i.fa {
 	color: #f9b324;
 }
 
@@ -380,6 +381,22 @@ header div.lg-container > div h1 {
 
 	address a {
 		font-size: 1em;
+	}
+
+	ul.social-media {
+		padding: 1em .3em;
+	}
+
+	ul.social-media li {
+		display:inline;
+	}
+
+	ul.social-media i.fa {
+		border:2px solid #f9b324;
+		border-radius: 50%;
+		width:1.7em;
+		height:1.7em;
+		padding:.3em;
 	}
 
 	
