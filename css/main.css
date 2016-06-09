@@ -369,6 +369,19 @@ header div.lg-container > div h1 {
 		font-weight: 600;
 	}
 
+	address p, address a {
+		margin-top: 0;
+		margin-bottom: 2em;
+	}
+
+	address p {
+		font-size: 1.25em;
+	}
+
+	address a {
+		font-size: 1em;
+	}
+
 	
 
 
