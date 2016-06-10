@@ -736,6 +736,40 @@ desktop
 		padding-right: 2em;
 	}
 
+	.bottom-nav {
+		/*text-align: left;*/
+		height: 24em;
+	}
+
+	.bottom-nav ul,
+	.bottom-nav address {
+		display: inline-block;
+	}
+
+	.bottom-nav ul.navigation,
+	.bottom-nav address {
+		text-align: left;
+		width: 25%;
+		float: left;
+	}
+
+	.bottom-nav ul.navigation {
+		padding-left: 6em;
+	}
+
+	.bottom-nav address {
+		padding-left: 3.5em;
+	}
+
+	.bottom-nav address,
+	.bottom-nav ul.social-media {
+		padding-top: 4.5em;
+	}
+
+	.bottom-nav ul.social-media {
+		width: 50%;
+	}
+
 
 
 }
