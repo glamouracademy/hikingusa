@@ -121,7 +121,6 @@ li > .fa-chevron-down {
 }
 
 #menu li.selected, #menu li:hover {
-	outline: 1px solid green;
 	background-color: rgba(80, 184, 46, 0.8);
 }
 
@@ -275,7 +274,6 @@ header div.lg-container > div h1 {
 	}
 
 	.adventure-grp img {
-		outline:2px solid red;
 		display: block;
 		height:80%;
 		margin-left: -3em;
