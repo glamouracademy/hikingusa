@@ -1,3 +1,9 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 html {
 	-webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -12,7 +18,6 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	margin: 0;
 	text-align: center;
 }
 
@@ -765,6 +770,13 @@ desktop
 	.bottom-nav ul.social-media {
 		width: 50%;
 	}
+
+
+	/******* 
+lg desktop 
+********/
+
+@media screen and (min-width: 1218px) {
 
 
 
