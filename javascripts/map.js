@@ -1,10 +1,8 @@
-
-var myCenter=new google.maps.LatLng(41.878178,-87.628964);
-
+	
 	function initialize()
 	{
 	var mapProp = {
-	  center:myCenter,
+	  center: {lat:41.878178, lng:-87.628964},
 	  zoom:5,
 	  mapTypeId:google.maps.MapTypeId.ROADMAP
 	  };
@@ -12,7 +10,7 @@ var myCenter=new google.maps.LatLng(41.878178,-87.628964);
 	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
 	var marker=new google.maps.Marker({
-	  position:myCenter,
+	  position: mapProp.center,
 	  });
 
 	marker.setMap(map);
