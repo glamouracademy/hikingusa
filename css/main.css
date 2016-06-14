@@ -211,12 +211,12 @@ header div.lg-container > div h1 {
 	div.banner {
 		width: 100%;
 		overflow: hidden;
-		height: 50vh;
+		/*height: 50vh;*/
 	}
 
 	div.banner > img {
 		left: 100%;
-		margin-left: -152%;
+		margin-left: -176%;
 		top: 100%;
 		margin-top: -23%;
 		zoom:73%;
@@ -225,11 +225,13 @@ header div.lg-container > div h1 {
 	div.banner > h1 {
 		position: absolute;
 		top: 19vh;
-		padding-top: initial;
+		padding-top: .8em;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.banner-button {
-		top:42vh;
+		top:56vh;
 		position: absolute;
 		left:0;
 		right:0;
@@ -774,8 +776,11 @@ desktop
 lg desktop 
 ********/
 
-@media screen and (min-width: 1218px) {
-
+@media screen and (min-width: 1200px) {
+	/*div.banner > img {
+		margin: 0;
+		zoom: 100%;
+	}*/
 
 
 }
