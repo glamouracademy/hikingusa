@@ -404,7 +404,6 @@ header div.lg-container > div h1 {
 	}
 
 	#googleMap {
-		width: auto;
 		height: 31vh;
 	}
 
@@ -738,8 +737,7 @@ desktop
 	}
 
 	.bottom-nav {
-		/*text-align: left;*/
-		height: 24em;
+		height: 27em;
 	}
 
 	.bottom-nav ul,
